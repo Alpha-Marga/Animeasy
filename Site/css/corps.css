@@ -1,0 +1,247 @@
+
+h1
+ {
+	 font-size: 40px;
+	 color:white;
+	 font-family: "rockwell", serif;
+	 padding-left: 30px;
+         background-color :#C5A632;
+         box-shadow: 1px 1px 4px black;
+}
+
+
+  h2
+ {
+	 font-size: 30px;
+	 color:white;
+	 font-family: "rockwell", serif;
+	 font-weight: normal;
+         padding-left: 30px;
+         background-color: #5499C7;
+         box-shadow: 1px 1px 4px black;
+}
+ 
+
+ h3
+ {
+	 font-size: 28px;
+	 color: black;
+	 font-family: "rockwell", serif;
+	 font-weight: normal;
+	 text-overflow: hidden;
+         text-align: center;
+}
+
+h3:hover {
+	color: orange;
+}
+
+ 
+ h4
+{
+	  font-size: 17px;
+	  font-family: "arial", serif;
+	  font-weight: normal;
+          color: black;
+	  padding-left: 30px;
+ }
+
+h4.px{
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+  
+}
+
+h5
+ {
+	 font-size: 20px;
+	 color: black;
+	 font-family: "rockwell", serif;
+	 font-weight: normal;
+	 text-overflow: hidden;
+         text-align: center;	
+}
+
+h6 
+{
+	font-size: 35px;
+	color:black;
+        text-align:center;
+	font-family: "arial", serif;
+	font-weight: normal;
+	
+}
+
+
+
+img 
+{
+	width: 480px; 
+	height: 300px;
+	border-radius: 10%; 
+      
+}
+
+a
+{
+	text-decoration: none;
+}
+
+
+/* Mise en forme de l'accueil*/ 
+
+div.accueil{
+ 
+    position : relative;
+    float:left;
+    padding:25px;
+    margin : 10px;
+    margin-left: 18px;
+    box-shadow: 1px 1px 4px black;
+}
+
+div.accueil img{
+    width: 300px; 
+    height: 245px;
+    border-radius: 30%; 
+    transition: 0.4s ;   
+}
+
+div.accueil img:hover{
+   border-radius: 20%; 
+   transform: scale(1.15);
+}
+
+
+/* Mise en forme des activités dans animation*/
+
+div.activite{
+ 
+    position : relative;
+    float:left;
+    padding:25px;
+    margin : 10px;   
+}
+
+
+div.activite h5:hover {
+	color: orange;
+}
+
+div.activite img{
+    width: 300px; 
+    height: 245px;
+    border-radius: 35%; 
+    transition: 0.4s ;   
+}
+
+div.activite img:hover{
+   border-radius: 10%; 
+   transform: scale(1.15);
+}
+
+
+table{
+    margin: auto;
+}
+
+
+/* Mise en forme des tables danimations */
+
+.table_animation 
+{
+	
+   	padding-left: 50px;
+        padding-right: 10%;
+        border-spacing: 15px;
+        box-shadow: 1px 1px 4px black;
+        width: 95%;
+        border-radius: 10px;
+        background-color:  #E5E7E9;
+      
+}
+
+.table_animation h4 
+{
+	
+   	 font-size: 17px;
+	 color:white;
+	 font-family: "arial", serif;
+	 font-weight: normal;
+         padding-left: 30px;
+         background-color: #5499C7;
+         box-shadow: 1px 1px 4px black;
+         text-align: left;
+         border-radius: 15px;
+         
+         
+
+}
+
+.table_animation h6 
+{
+	
+   	 font-size: 20px;
+	 color:white;
+	 font-family: "calibri", serif;
+	 font-weight: normal;
+         padding-left: 30px;
+         padding-right: 20%;
+         background-color: #5499C7;
+         box-shadow: 1px 1px 4px black;
+         text-align: left;
+         border-radius: 15px;
+         width: 50%;
+         
+
+}
+
+
+
+.table_animation img 
+{
+	width: 480px; 
+	height: 300px;
+	border-radius: 10%; 
+      
+}
+
+
+
+/* Mise en forme des tableaux de listes */
+
+.table_liste
+{
+        border-width: 1px;
+        border-color: black;
+        border-style: solid;
+        font-family: "arial", serif;
+        width: 95%;
+        background-color:  #E5E7E9;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 5px;
+}
+
+.table_liste td{
+	border-width: 1px;
+        border-color: black;
+        border-style: solid;
+
+}
+
+.table_liste h6 
+{
+	
+   	 font-size: 20px;
+	 color:white;
+	 font-family: "calibri", serif;
+	 font-weight: normal;
+         padding-left: 30px;
+         padding-right: 20%;
+         background-color: #5499C7;
+}
+
+

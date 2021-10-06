@@ -1,0 +1,112 @@
+
+
+html{
+	height: 100%;
+	margin: 0; padding: 0;
+}
+
+body
+{
+	 background-color:white;
+	 color: black;
+         margin: 0px;
+         padding: 0px;
+         height: 100%;
+         display : table;
+	 display : table;
+	 width: 100%;
+}
+
+
+/* Mise en forme de l'en-tête */
+header
+ {
+	 text-align: center;
+	 color : #F2F4F4;
+	 font-size: 35px;
+	 font-family: "ravie", serif;
+	 font-weight: normal;
+	 text-align: center;
+         width: 100%;
+         background-image: url(../image/animeasy.jpg);
+		 
+        
+ }
+ 
+ p#site{
+      text-shadow: 2px 2px 2px black, -2px -2px 2px black;
+ }
+ 
+
+/* Mise en forme de la barre de navigation */
+.nav 
+{
+	padding:5px;
+        margin: 0;
+        color: white;
+	text-align: right;
+	font-family: "arial", serif;
+	background-color: black;
+        font-size: 16px;
+	font-weight: normal;
+	overflow: hidden;
+
+}
+
+.nav li 
+{
+	display: inline;
+}
+
+.nav a
+{
+	padding: 10px;
+}
+
+.nav li a:hover 
+{
+	background-color: #C5A632;
+}
+
+
+/* Mise en forme du pied de page */
+
+footer
+{
+ 	text-align: right;
+ 	padding-bottom: 10px;
+        display : table-row;
+	
+
+}
+
+footer h6
+{
+ 	
+        color: white;
+ 	text-align: center;
+        font-size: 16px;
+        font-family: "arial", serif;
+        background-color :#C5A632;
+        box-shadow: 1px 1px 4px black;
+      
+ 	
+}
+
+
+footer img
+{       padding-right: 20px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+ 

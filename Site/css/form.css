@@ -1,0 +1,98 @@
+
+/* Les lignes qui suivent concernes la mise en forme et le design des formulaires */
+
+legend
+{
+    background-color: #C5A632;
+    font-size: 16px;
+    color: white ;
+    font-family: "arial", serif;
+    padding: 4px;
+    text-align: center;
+     box-shadow: 1px 1px 4px black;
+    border-radius: 15px;
+}
+
+input 
+{
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  
+}
+
+input#zone_text{
+   width: 200px; 
+}
+
+textarea
+{
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+form.reform
+{
+	color: white;
+	padding-left:40%;
+        
+        
+}
+
+form.reforme
+{
+	color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        border-radius: 10px;
+}
+
+form.mjr
+{
+	color: white;
+	padding-left:35%;
+        width: 30%;
+        
+}
+
+form.mjr legend
+{
+    background-color: #C5A632;
+    font-size: 25px;
+    color: white ;
+    font-family: "arial", serif;
+    padding: 4px;
+    text-align: center;
+    box-shadow: 1px 1px 4px black;
+}
+
+
+div.formulaire{
+   background-image: url(../image/fond.png);
+   display: flex; 
+   margin-left: auto;
+   margin-right: auto;
+   flex-direction: row;
+   width: 90%;
+  border-radius: 10px;
+}
+
+
+
+label
+{
+	margin-left: 10px;
+        font-family: "arial", serif;
+        font-size: 16px;
+	font-weight: bold;
+	
+	
+}
+
+fieldset {
+        border: none;  
+        border-radius: 20px;
+        background-color:#5499C7;
+}
